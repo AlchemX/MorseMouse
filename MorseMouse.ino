@@ -3,7 +3,7 @@
 
 #include <Mouse.h>
 
-#define MorseKeyPin 11;   //set this as you hooked it up to your LEonardo
+#define MorseKeyPin 11   //set this as you hooked it up to your Leonardo
 
 bool mousebuttonstate = 0;
 //using this variable as a state prevents us from sending excessive events to the PC
